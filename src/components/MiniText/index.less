@@ -1,0 +1,49 @@
+@commonSpace: 15px;
+@borderColor: #dfdfdf;
+
+@optHeight: 40px; // 操作栏的高度
+
+@contentMinWidth: 200px; // 内容编辑区的最小宽度
+@contentMinHeight: 100px; // 内容编辑区的最小宽度
+
+.flex(@justifyItem: center, @alignItem: center) {
+    display: flex;
+    justify-content: @justifyItem;
+    align-items: @alignItem;
+}
+.mini-text-root {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid @borderColor;
+    color: black;
+    box-sizing: border-box;
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    .mini-text-opts {
+        height: @optHeight;
+        border-bottom: 1px solid @borderColor;
+    }
+    .mini-text-content {
+        position: relative;
+        min-width: @contentMinWidth;
+        min-height: @contentMinHeight;
+        padding: @commonSpace;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        font-variant-ligatures: none;
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+
+        p {
+            margin: 1.75rem 0px 1rem;
+            line-height: 1.2;
+            font-size: 1rem;
+        }
+    }
+}
