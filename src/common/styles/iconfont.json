@@ -1,0 +1,121 @@
+{
+  "id": "1606654",
+  "name": "minitext",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "88065",
+      "name": "link",
+      "font_class": "link",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "167426",
+      "name": "code",
+      "font_class": "code",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "167464",
+      "name": "sub",
+      "font_class": "sub",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "167465",
+      "name": "sup",
+      "font_class": "sup",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "605225",
+      "name": "redo",
+      "font_class": "redo",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "836719",
+      "name": "list-ul",
+      "font_class": "list-ul",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "2989281",
+      "name": "undo",
+      "font_class": "undo",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "4767063",
+      "name": "align-center",
+      "font_class": "align-center",
+      "unicode": "e7f5",
+      "unicode_decimal": 59381
+    },
+    {
+      "icon_id": "5127577",
+      "name": "upload",
+      "font_class": "upload",
+      "unicode": "e842",
+      "unicode_decimal": 59458
+    },
+    {
+      "icon_id": "5202923",
+      "name": "斜体",
+      "font_class": "italic",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "5634195",
+      "name": "list-ol",
+      "font_class": "list-ol",
+      "unicode": "f039",
+      "unicode_decimal": 61497
+    },
+    {
+      "icon_id": "7192343",
+      "name": "T-加粗",
+      "font_class": "blod",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "7192354",
+      "name": "T-下划线",
+      "font_class": "underline",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "7239606",
+      "name": "align-left",
+      "font_class": "align-left",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "7239608",
+      "name": "align-right",
+      "font_class": "align-right",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "9965759",
+      "name": "blockquote",
+      "font_class": "blockquote",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

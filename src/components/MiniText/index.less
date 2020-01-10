@@ -1,3 +1,4 @@
+@import '../../common/styles/fonts/iconfont.css';
 @commonSpace: 15px;
 @borderColor: #dfdfdf;
 
@@ -25,6 +26,27 @@
     .mini-text-opts {
         height: @optHeight;
         border-bottom: 1px solid @borderColor;
+        .flex(flex-start);
+        padding-left: @commonSpace;
+        padding-right: @commonSpace;
+
+        .mini-text-opts-item {
+            padding: 2px 5px;
+            margin-right: 5px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:hover,
+            &.mini-text-opts-item-active {
+                background: #eee;
+            }
+
+            .iconfont {
+                display: block;
+            }
+        }
     }
     .mini-text-content {
         position: relative;
@@ -34,6 +56,7 @@
         word-wrap: break-word;
         white-space: pre-wrap;
         font-variant-ligatures: none;
+        caret-color: hsla(228, 4%, 24%, 0.8);
 
         &:focus {
             border: none;
@@ -41,7 +64,7 @@
         }
 
         p {
-            margin: 1.75rem 0px 1rem;
+            margin: 1rem 0px;
             line-height: 1.2;
             font-size: 1rem;
         }
